@@ -16,6 +16,9 @@
             .then(data => {
                 document.getElementById("content").innerText = data; // or data.people
             });
+            .catch((e) => {
+                console.log("Error: ", e);
+            })
     </script>
 </body>
 
